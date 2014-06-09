@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/joseph/AndroidStudioProjects/YetAnotherBillsSplitter/yetanotherbillsplitter/build/intermediates/pre-dexed/debug/support-v4-19.1.0-8f1538e949ce9974bd24a9dec9248f9927fdf529.jar"
+        jar="/home/joseph/android-sdk-linux_x86/android-studio/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/home/joseph/AndroidStudioProjects/YetAnotherBillsSplitter/yetanotherbillsplitter/build/intermediates/pre-dexed/debug/support-v13-19.1.0-c57cefa7607018ae6408f3d197186da5b3e78452.jar"
+        jar="/home/joseph/android-sdk-linux_x86/android-studio/sdk/extras/android/m2repository/com/android/support/support-v13/19.1.0/support-v13-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="6b852a232f642c75a7fdfc7212b841b8c8f8959c"/>
+
+</pre-dex-items>
