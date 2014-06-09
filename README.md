@@ -1,4 +1,5 @@
-android-yet-another-bills-splitter
-==================================
+Yet another bills splitter for Android
+=====================================
 
-Yet another bills slitter for Android
+Group bills splitter calculator. Useful for bills split calculations in 
+trips when groups of people buys staff for the whole team
