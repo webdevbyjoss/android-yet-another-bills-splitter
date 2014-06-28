@@ -61,11 +61,12 @@ public class CombinedLogTest extends TestCase {
 
         SharesCalculator.Result res = SharesCalculator.processCombined(log);
         Entry result = res.entry;
-        assertEquals((int)result.get("Ann"), -265);
-        assertEquals((int)result.get("John"), 424);
-        assertEquals((int)result.get("Mark"), -285);
-        assertEquals((int)result.get("Alex"), 128);
-        assertEquals(res.getTotal(), 1290);
+        assertEquals((int) result.get("Ann"), -265);
+        assertEquals((int) result.get("John"), 425);
+        assertEquals((int) result.get("Mark"), -285);
+        assertEquals((int) result.get("Alex"), 128);
+
+        assertEquals(res.getTotal(), 1390);
     }
 
 }
