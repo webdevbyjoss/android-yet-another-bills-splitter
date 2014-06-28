@@ -4,7 +4,7 @@ import android.database.sqlite.SQLiteDatabase;
 
 public class PaymentMembers {
 
-    static private final String TABLE = "payment_members";
+    static public final String TABLE = "payment_members";
     static private final String CREATE_TABLE = "CREATE TABLE " + TABLE +
             "(pid INTEGER, mid INTEGER, amount INTEGER)";
 

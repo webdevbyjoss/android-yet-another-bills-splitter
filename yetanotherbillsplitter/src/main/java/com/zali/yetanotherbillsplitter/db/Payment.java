@@ -2,11 +2,16 @@ package com.zali.yetanotherbillsplitter.db;
 
 import android.database.sqlite.SQLiteDatabase;
 
-public class Payments {
+public class Payment {
 
-    static private final String TABLE = "payments";
+    static public final String TABLE = "payments";
+
+    static public final String KEY_ID = "_id";
+    static public final String KEY_INFO = "info";
+    static public final String[] COLUMNS = {KEY_ID, KEY_INFO};
+
     static private final String CREATE_TABLE = "CREATE TABLE " + TABLE
-            + " (_id INTEGER primary key autoincrement, info TEXT)";
+            + " (" + KEY_ID + " INTEGER primary key autoincrement, " + KEY_INFO + " TEXT)";
 
     static void onCreate(SQLiteDatabase db) {
         db.execSQL(CREATE_TABLE);
