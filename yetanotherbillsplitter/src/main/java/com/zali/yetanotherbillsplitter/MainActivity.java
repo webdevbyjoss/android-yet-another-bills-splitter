@@ -194,7 +194,7 @@ public class MainActivity extends Activity implements ActionBar.TabListener, Mem
 
     public void onFragmentInteraction(long id) {
         Toast.makeText(this, "onFragmentInteraction id = " + id, Toast.LENGTH_SHORT).show();
-        Log.d("onFragmentInteraction", new Integer((int) id).toString());
+        Log.d("onFragmentInteraction", Integer.valueOf((int) id).toString());
     }
 
 }
